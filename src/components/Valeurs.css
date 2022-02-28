@@ -1,0 +1,56 @@
+.valeur {
+  display: flex;
+  margin: 10vh;
+  height: 90vh;
+}
+
+.valeurDroite {
+  width: 50%;
+  background-color: #ece9d9;
+  height: 100%;
+  border-radius: 20px;
+  padding: 2.5% 5%;
+}
+
+.valeurDroite p {
+  padding: 5%;
+  line-height: 2.5rem;
+  text-align: justify;
+}
+
+.valeurGauche {
+  width: 50%;
+  height: 100%;
+}
+
+.valeurGauche ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  list-style: none;
+  padding-left: 15%;
+  font-size: 1.1rem;
+  line-height: 0.5;
+}
+.valeurGauche h3 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+.valeurGauche p {
+  font-size: 2.2rem;
+}
+.valeurGauche li {
+  margin-top: 5vh;
+  padding: 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+  /* border-left: solid 1px grey; */
+}
+.valeurGauche p {
+  cursor: pointer;
+}
+
+.clicked {
+  font-weight: bold;
+  border-left: solid 4px orange;
+}

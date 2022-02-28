@@ -1,0 +1,84 @@
+.introTitle {
+  padding: 10% 20%;
+  min-height: 400px;
+  /* height: 70%; */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.introTitle p {
+  font-weight: 700;
+  font-size: 4rem;
+  animation: slideInP 2s forwards ease-in-out;
+}
+
+.introTitle span {
+  font-size: 2.5rem;
+  opacity: 0%;
+  animation: slideInSpan 2s forwards ease-in-out;
+  animation-delay: 1s;
+}
+
+@keyframes slideInP {
+  0% {
+    opacity: 0%;
+    transform: translateY(100%);
+  }
+
+  100% {
+    opacity: 100%;
+    transform: translateY(0%);
+  }
+}
+
+@keyframes slideInSpan {
+  0% {
+    opacity: 0%;
+    transform: translateY(100%);
+    /* animation-delay: 400ms; */
+  }
+
+  100% {
+    opacity: 100%;
+    transform: translateY(-3rem);
+  }
+}
+
+.presentation {
+  background-color: #fffbeb;
+  padding: 5rem 10rem;
+  line-height: 2rem;
+}
+
+.presentation p {
+  margin: 3rem 10rem;
+}
+.presentation span {
+  font-size: 2rem;
+}
+
+@media screen and (max-width: 900px) {
+  .presentation {
+    padding: 0;
+  }
+
+  .presentation p {
+    margin: 0;
+    padding: 20px;
+  }
+}
+
+/* .Chiffre {
+  height: 200px;
+  background-color: #152a4e36;
+  padding: 3%;
+}
+.Chiffre h3 {
+  font-size: 1.5rem;
+  margin-bottom: 5%;
+}
+.ChiffreAllCards {
+  display: flex;
+  justify-content: space-between;
+} */
