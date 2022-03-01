@@ -1,0 +1,25 @@
+.resp h3 {
+  font-size: 3rem;
+  margin: 10vh;
+}
+.politique {
+  display: flex;
+  padding: 7%;
+  width: 100%;
+}
+
+.politique div {
+  padding-top: 5%;
+  padding-right: 20%;
+  line-height: 3rem;
+  text-align: justify;
+}
+
+.engagement {
+  display: flex;
+}
+
+.engagement div {
+  padding: 4%;
+  line-height: 2.5rem;
+}

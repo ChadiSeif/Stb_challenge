@@ -3,7 +3,7 @@ import "./Chiffre.css";
 
 const Chiffre = () => {
   return (
-    <>
+    <div className="chiffre">
       <h3>Nos chiffres clés</h3>
       <div className="chiffreContainer">
         <div className="wrapper">
@@ -66,7 +66,7 @@ const Chiffre = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

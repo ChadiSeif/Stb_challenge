@@ -2,3 +2,35 @@
   height: 120vh;
   background-color: rgba(0, 0, 255, 0.075);
 }
+svg path {
+  fill: #cccccc;
+  fill-opacity: 1;
+  stroke: white;
+  stroke-opacity: 1;
+  stroke-width: 0.5;
+}
+
+svg path:hover {
+  fill: #006284;
+  transition: 0.6s;
+  cursor: pointer;
+}
+.Map h3 {
+  font-size: 3rem;
+  text-decoration: underline;
+}
+.Maplist {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.Maplist div {
+  margin: 5%;
+}
+.Maplist p {
+  font-size: 3rem;
+  margin-top: 20%;
+  background-color: white;
+  padding: 10%;
+  border-radius: 25%;
+}

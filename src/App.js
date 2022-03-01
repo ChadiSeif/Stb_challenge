@@ -1,20 +1,14 @@
 import "./App.css";
-import Chiffre from "./components/Chiffre";
-import Equipe from "./components/Equipe";
-import Invest from "./components/Invest";
-import { Map } from "./components/Map";
-import Presentation from "./components/Presentation";
-import Valeurs from "./components/Valeurs";
+import { Routes, Route } from "react-router-dom";
+import Partie1 from "./Partie1";
+// import Partie2 from "./Partie2";
 
 function App() {
   return (
     <div className="App">
-      <Presentation />
-      <Chiffre />
-      <Invest />
-      <Valeurs />
-      <Equipe />
-      <Map />
+      <Routes>
+        <Route path="/" element={<Partie1 />} />
+      </Routes>
     </div>
   );
 }

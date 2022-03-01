@@ -1,0 +1,11 @@
+.Navbar {
+  background-color: #0f044c;
+  height: 20vh !important;
+  position: fixed;
+  width: 100%;
+  font-size: 15px;
+  font-family: IBM Plex Sans, sans-serif !important;
+}
+.me-auto {
+  margin-left: 50%;
+}

@@ -22,6 +22,7 @@ const Presentation = () => {
             développement et à leur croissance avec obligation de sortie.
           </p>
         </div>
+        
       </div>
     </div>
   );
