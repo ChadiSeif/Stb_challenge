@@ -20,19 +20,19 @@ const NavBar = () => {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-              {/* <Nav.Link style={{ color: "white" }} href="/nous-connaitre">
+              {/* <Nav.Link style={{ color: "white" }} ">
                 Nous connaitre
               </Nav.Link> */}
-              <Nav.Link style={{ color: "white" }} href="/nos-fonds">
+              <Nav.Link style={{ color: "white" }}">
                 Présentation
               </Nav.Link>
-              <Nav.Link style={{ color: "white" }} href="/nos-réalisations">
+              <Nav.Link style={{ color: "white" }} >
                 Nos Chiffres clés
               </Nav.Link>
-              <Nav.Link style={{ color: "white" }} href="/actualités">
+              <Nav.Link style={{ color: "white" }} >
                 Notre équipe
               </Nav.Link>
-              <Nav.Link style={{ color: "white" }} href="/contact">
+              <Nav.Link style={{ color: "white" }} >
                 Responsabilite sociale
               </Nav.Link>
             </Nav>
